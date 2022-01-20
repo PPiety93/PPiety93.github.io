@@ -417,7 +417,8 @@ body {
     }
     
     .topnav.responsive {
-      opacity: 0.9;}
+      opacity: 0.9;
+      background-color: #f8f8ff;}
 
     .topnav.responsive .icon {
       position: absolute;
