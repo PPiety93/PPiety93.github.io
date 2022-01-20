@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Analyst Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="name">P. Piety</a>
+        <div id="navbar-right">
+        <a href="index.html#about" class="item">About Me</a>
+        <a href="index.html#portfolio" class="item">Portfolio</a>
+        <a href="index.html#contact" class="item">Contact</a>
+        </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class= "space"></div>
+
+    <div id="report">
+
+        <div id="header_title">
+
+        <h1>Data Analyst Project - Sales Report</h1>
+
+        </div>
+        <div class="img_overview_row"> 
+          <div class="overview_column">
+            <img src="project1img/overview.JPG" style="width:100%">
+            <img src="project1img/modeling.JPG" style="width:100%">
+          </div>
+
+          <div class="overview_column">
+            <img src="project1img/sql.JPG" style="width:100%">
+            <img src="project1img/excel.JPG" style="width:100%">
+          </div>
+
+        </div>
+
+
+        <div id="projectcontainer">
+        <h2>Sales report example</h2>
+        <p>This data analyst project is an executive sales report for sales managers. </p>
+
+        <h2>Data Cleansing and Transformation (SQL)</h2>
+        <p>SQL was used to create the necessary data model for doing analysis</p>
+        <p>Bellow are the SQL statements for cleansing and transforming necessary data</p>
+        <h4>DimFactInternetSales table</h4>
+        <img src = "project1img/sql.JPG" id="detailimg"></img>
+        <h4>DimCalendar table</h4>
+        <img src = "project1img/calendarsql.JPG" id="detailimg"></img>
+        <h4>DimProduct table</h4>
+        <img src = "project1img/productsql.JPG" id="detailimg"></img>
+        <h4>DimCustomer table</h4>
+        <img src = "project1img/customersql.JPG" id="detailimg"></img>
+
+
+        <h2>Data Model</h2>
+        <p>Below is a screenshot of the data model after cleansed and prepared tables were read into  POWER BI</p>
+        <img src = "project1img/modeling.JPG" id="modelimg"></img>
+        
+        <h2>Sales Report Dashboard - POWER BI</h2>
+        <p>The finished Sales Report Dashboard containd two pages. The first one works as an overview and the second page focused on customer details. Both show the necessary details and visualizations of sales overtime per quarter, category and products.</p>
+        <p>Bellow are the SQL statements for cleansing and transforming necessary data</p>
+        <img src = "project1img/overview.JPG" id="reportimg"></img>
+        <img src = "project1img/detail.JPG" id="reportimg"></img>
+        
+        
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+      <div id= "page">
+      <h2> About This Page</h2>
+      <p>This website was coded in HTML, CSS, and Javascript by Paola Piety. The code can be found here.
+  
+      </p>
+      </div>
+
+        <!-- CONTACT -->
+        <div id="contact">
+          <h2>Contact me</h2>
+          <a href="https://www.linkedin.com/in/paola-piety-314b2585/?locale=en_US"><i class="fa fa-linkedin fa_custom fa-2x"></i></a>
+          <a href="https://github.com/PPiety93"><i class="fa fa-github" style="font-size:36px"></i></a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html
