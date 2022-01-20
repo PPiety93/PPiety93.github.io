@@ -88,7 +88,7 @@ body {
     height: 600px;
     /*background-image: url(images/colchuck.JPG);*/
     background: linear-gradient(rgba(102, 134, 146, 0.45), rgba(102, 134, 146, 0.45)),
-    url(images/rainier.JPG);
+    url(images/rainier.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
