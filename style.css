@@ -409,6 +409,7 @@ body {
     /*display the vertical menu at the right when the screen is small*/
     .topnav .item{
       display: none;
+      background-color: #f8f8ff;
     }
     .topnav a.icon {
       float: right;
